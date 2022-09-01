@@ -1,0 +1,35 @@
+1. To start ,  Tdenv interpetor and viromwnt can be used (upper triangle button), but other django version will be there
+
+ virtualenv crud
+    source crud/bin/activate
+correct 2. /Users/shrey/Downloads/projects/libraryapp/crud/bin/python(copy path file) manage.py runserver
+
+pip install django==2.1.7
+
+Tdenv interpretor is used
+
+django-admin startproject libraryapp
+inside  django-admin startapp book
+
+postgres 
+\c is used to connect
+\d (for databases)
+\dt (tables ) then use select query for rows
+
+cd crud
+cd libraryapp
+python manage.py makemigrations
+python manage.py migrate
+
+cd libraryapp
+python manage.py runserver
+
+python manage.py shell
+
+
+python manage.py createsuperuser
+- admin
+- password
+
+pip freeze > requirements.txt
+df crud tuts
