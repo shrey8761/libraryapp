@@ -33,3 +33,6 @@ python manage.py createsuperuser
 
 pip freeze > requirements.txt
 df crud tuts
+https://data-flair.training/blogs/django-crud-example/
+
+ss1.png
