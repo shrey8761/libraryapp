@@ -1,3 +1,8 @@
+cd crud () dont forget
+source crud/bin/activate
+/Users/shrey/opt/anaconda3/envs/TDenv/bin/python "/Users/shrey/Downloads/projects/3. libraryapp/crud/libraryapp/manage.py" runserver
+
+================
 1. To start ,  Tdenv interpetor and viromwnt can be used (upper triangle button), but other django version will be there
 
  virtualenv crud
@@ -22,6 +27,7 @@ python manage.py makemigrations
 python manage.py migrate
 
 cd libraryapp
+==============**important========
 python manage.py runserver
 
 python manage.py shell
